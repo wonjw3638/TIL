@@ -1,5 +1,7 @@
 T = int(input())
-T_reverse = T[::-1]
-if T == T_reverse:
-    print(f'#{case} 1')
-else: print(f'#{case} 0')
+for case in T:
+    string = input()
+    r_string = T[::-1]
+    if string == r_string:
+        print(f'#{case + 1} 1')
+    else: print(f'#{case + 1} 0')
