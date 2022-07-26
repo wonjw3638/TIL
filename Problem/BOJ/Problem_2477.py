@@ -1,4 +1,6 @@
-N = int(input()) # 참외 개수
+# 런타임 에러
+
+N = int(input())
 defense = { 1 : 4, 2 : 3, 3 : 1, 4 : 2 }
 area = { i : 0 for i in [1, 2, 3, 4]}
 
@@ -6,11 +8,10 @@ field = []
 for _ in range(6):
     field.append(list(map(int, input().split())))
 
-print(field)
-
 temp = field[0][0]
 except_area = []
 total_area = []
+idx = []
 
 for i in field:
     area[i[0]] += 1
@@ -18,7 +19,7 @@ for i in field:
         temp = defense[i[0]]
         continue
     else:
-        except_area.append(i[1])
+        idx.append(field.index(i) - 1)
 
 for i in range(1,5):
     if area[i] == 1:
@@ -26,9 +27,7 @@ for i in range(1,5):
             if f[0] == i:
                 total_area.append(f[1])
 
-print(f'except_area : {except_area}')
-print(f'total_area : {total_area}')
+for i in idx:
+    except_area.append(field[i][1])
 
-print((N * (total_area[0] * total_area[1]) - (except_area[0] * except_area[1])))
-
-####아직 수정 중
+print((N * ((total_area[0] * total_area[1]) - (except_area[0] * except_area[1]))))
