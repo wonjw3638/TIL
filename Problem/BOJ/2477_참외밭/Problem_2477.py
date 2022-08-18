@@ -1,7 +1,5 @@
 # 2477_참외밭
 # 220816
-# 설계 13:30 ~ 13:35
-# 구현 13:35 ~ 
 
 K = int(input())
 
@@ -20,8 +18,6 @@ for _ in range(6):
 
 width = height = except_w = except_h = 0
 
-print('count:', count)
-
 for i in range(6):
     if count[edge[i]] == 1:
         if edge[i] in [1, 2]:
@@ -35,28 +31,12 @@ for i in range(6):
             else:
                 except_h = length[i]
         continue
-    
+
     if edge[i-1] == edge[i+1]:
         if edge[i] in [1, 2]:
             except_w = length[i]
         else:
             except_h = length[i]
 
-print('width', width)
-print('height', height)
-print('except_w', except_w)
-print('except_h', except_h)
-
-
 answer = K * ((width * height)-(except_w * except_h))
 print(answer)
-
-'''
-7
-3 20
-1 100
-4 50
-2 160
-3 30
-1 60
-'''
