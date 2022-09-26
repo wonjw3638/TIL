@@ -1,0 +1,1 @@
+{"name":"Local: 2568_전깃줄-2","url":"d:\\GitHub\\TIL\\TIL\\Problem\\BOJ\\2568_전깃줄-2.py","tests":[{"id":1664054320172,"input":"8\n1 8\n3 9\n2 2\n4 1\n6 4\n10 10\n9 7\n7 6","output":"3\n1\n3\n4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\GitHub\\TIL\\TIL\\Problem\\BOJ\\2568_전깃줄-2.py","group":"local","local":true}
