@@ -1,0 +1,1 @@
+{"name":"Local: 13460_구슬_탈출2","url":"c:\\Users\\multicampus\\Desktop\\Jiwon\\TIL\\Problem\\BOJ\\13460_구슬_탈출2.py","tests":[{"id":1664526799796,"input":"5 5\n#####\n#..B#\n#.#.#\n#RO.#\n#####","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\multicampus\\Desktop\\Jiwon\\TIL\\Problem\\BOJ\\13460_구슬_탈출2.py","group":"local","local":true}

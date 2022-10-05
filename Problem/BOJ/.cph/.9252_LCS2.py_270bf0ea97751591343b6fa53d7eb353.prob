@@ -1,0 +1,1 @@
+{"name":"Local: 9252_LCS2","url":"c:\\Users\\multicampus\\Desktop\\Jiwon\\TIL\\Problem\\BOJ\\9252_LCS2.py","tests":[{"id":1664502293371,"input":"ACAYKP\nCAPCAK","output":"4\nACAK"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\multicampus\\Desktop\\Jiwon\\TIL\\Problem\\BOJ\\9252_LCS2.py","group":"local","local":true}
