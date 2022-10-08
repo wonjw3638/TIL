@@ -1,0 +1,1 @@
+{"name":"Local: 1766_문제집","url":"d:\\GitHub\\TIL\\TIL\\Problem\\BOJ\\1766_문제집.py","tests":[{"id":1665235842299,"input":"4 2\n4 2\n3 1","output":"3 1 4 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\GitHub\\TIL\\TIL\\Problem\\BOJ\\1766_문제집.py","group":"local","local":true}

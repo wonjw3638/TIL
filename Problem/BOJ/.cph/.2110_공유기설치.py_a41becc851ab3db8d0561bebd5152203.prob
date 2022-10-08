@@ -1,0 +1,1 @@
+{"name":"Local: 2110_공유기설치","url":"d:\\GitHub\\TIL\\TIL\\Problem\\BOJ\\2110_공유기설치.py","tests":[{"id":1664788704061,"input":"5 3\n1\n2\n8\n4\n9","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\GitHub\\TIL\\TIL\\Problem\\BOJ\\2110_공유기설치.py","group":"local","local":true}
