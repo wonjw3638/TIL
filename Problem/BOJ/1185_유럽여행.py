@@ -17,3 +17,5 @@ for _ in range(P):
     node1, node2, w = list(map(int, input().split()))
     edge.append([node1, node2, w+arr[node2]])
     edge.append([node2, node1, w+arr[node1]])
+
+
