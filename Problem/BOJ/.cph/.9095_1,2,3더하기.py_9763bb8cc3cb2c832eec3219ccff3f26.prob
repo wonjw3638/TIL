@@ -1,0 +1,1 @@
+{"name":"Local: 9095_1,2,3더하기","url":"d:\\GitHub\\TIL\\TIL\\Problem\\BOJ\\9095_1,2,3더하기.py","tests":[{"id":1669915900236,"input":"3\n4\n7\n10","output":"7\n44\n274"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\GitHub\\TIL\\TIL\\Problem\\BOJ\\9095_1,2,3더하기.py","group":"local","local":true}
