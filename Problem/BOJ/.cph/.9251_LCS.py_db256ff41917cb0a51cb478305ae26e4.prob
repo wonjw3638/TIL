@@ -1,0 +1,1 @@
+{"name":"Local: 9251_LCS","url":"d:\\GitHub\\TIL\\TIL\\Problem\\BOJ\\9251_LCS.py","tests":[{"id":1665501893500,"input":"ACAYKP\nCAPCAK","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\GitHub\\TIL\\TIL\\Problem\\BOJ\\9251_LCS.py","group":"local","local":true}
