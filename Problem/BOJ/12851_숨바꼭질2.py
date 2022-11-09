@@ -7,6 +7,7 @@ N, K = list(map(int, input().split()))
 
 def bfs():
     visited = [0] *  200000
+    visitedCount = [0] *  200000
     visited[N] = 1
 
     queue = deque()
@@ -16,19 +17,22 @@ def bfs():
 
     while queue:
         num, cnt = queue.popleft()
-        print(num, cnt)
         if num == K or answer != float('INF'):
             if answer == float('INF'):
                 answer = cnt
-            if answer == cnt:
+            if answer == cnt and num == K:
                 count += 1
             continue
         
+        if cnt > answer:
+            return
+
         cnt += 1
         for d in [1, -1, num]:
 
-            if 0 <= num+d < 200000 and visited[num + d] == 0:
-                visited[num + d] = 1
+
+            if 0 <= num+d < 200000 and (visited[num + d] == 0 or visited[num+d] == cnt):
+                visited[num + d] = cnt
                 queue.append((num+d, cnt))
     
     return answer, count
